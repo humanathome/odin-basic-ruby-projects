@@ -16,3 +16,9 @@ Few small projects for practicing basic Ruby knowledge.
 times it was found.
 - Make sure your method can handle multiple words
 - Note: the order of your keys might be different
+
+### Stock picker
+- Implement a method `stock_picker` that takes in an array of stock prices, one for each hypothetical day. It should 
+return a pair of days representing the best day to buy and the best day to sell. Days start at 0.
+- Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day
+- Note: you need to buy before you can sell
