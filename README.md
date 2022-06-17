@@ -22,3 +22,7 @@ times it was found.
 return a pair of days representing the best day to buy and the best day to sell. Days start at 0.
 - Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day
 - Note: you need to buy before you can sell
+
+### Bubble sort
+- Build a method `bubble_sort` that takes an array and returns a sorted array. It must use the bubble sort
+methodology (using `Array#sort` would be pretty pointless).
