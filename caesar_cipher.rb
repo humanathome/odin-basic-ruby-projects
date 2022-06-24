@@ -1,5 +1,6 @@
-def caesar_cipher(sentence, places)
+# frozen_string_literal: true
 
+def caesar_cipher(sentence, places)
   shifted = sentence.codepoints.map do |character_code|
     if character_code.between?(97, 122)
       (((character_code - 97 + places) % 26) + 97).chr
